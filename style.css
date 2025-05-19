@@ -229,7 +229,7 @@ header{padding: 28px 10px 0;position: fixed;inset: 0 0 auto;z-index: 100;}
 
 ul.accord {max-width: 400px;margin: 17px auto;}
 ul.accord li {padding: 8px 15px; transition: ease .3s;position: relative;}
-ul.accord h2 {display: flex; justify-content: flex-start; align-items: center; gap: 11px; font-weight: 500;}
+ul.accord h2 {display: flex; justify-content: flex-start; align-items: center; gap: 11px; font-weight: 500; padding-right: 15px;}
 ul.accord h2 figure { width: 20px; display: flex; justify-content: center; align-items: center; filter: brightness(0) saturate(100%) invert(86%) sepia(3%) saturate(14%) hue-rotate(325deg) brightness(79%) contrast(80%);}
 ul.accord p { max-height: 0; overflow: hidden; transition: max-height 0.4s ease, opacity 0.4s ease; opacity: 0; font-size: 18px; color: rgba(247, 247, 247, 0.8);padding-top: 10px;line-height: 1.8;}
 ul.accord li.active p { max-height: 1000px; opacity: 1; }
