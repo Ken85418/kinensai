@@ -219,7 +219,7 @@ header{padding: 28px 10px 0;position: fixed;inset: 0 0 auto;z-index: 100;}
 .access_info ul li strong{font-size: 34px;}
 .access_info ul li q{margin: 0 8px;position: relative;top: -5px;}
 
-.access_map{width: 380px; height: 170px; border: 2px solid rgba(198, 198, 198, 0.99); border-radius: 16px; overflow: hidden; margin: 0 auto;}
+.access_map{max-width: 380px; height: 170px; border: 2px solid rgba(198, 198, 198, 0.99); border-radius: 16px; overflow: hidden; margin: 0 auto;}
 .access_map iframe{height: 100%;}
 
 .access_btn{margin-top: 25px;width: 238px;}
