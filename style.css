@@ -165,11 +165,11 @@ header{padding: 28px 10px 0;position: fixed;inset: 0 0 auto;z-index: 100;}
 .owl-next::before{content: "\203A";}
 
 /* Pause/Play Button */
-.toggleBtn{display: flex !important; justify-content: center; align-items: center;    border: none !important;   position: absolute !important;inset: 0 0 auto;margin: 0 auto;}
+.toggleBtn{display: flex !important; justify-content: center; align-items: center; border: none !important;   position: absolute !important;inset: 0 0 auto;margin: 0 auto;}
 .toggleBtn:hover{background: rgba(255, 255, 255, 0.4) !important;}
-.toggleBtn::before { color: #fff; font-size: 16px !important;line-height: 100%;position: relative;}
-.toggleBtn.pause::before { content: "\23F8"; top: -3px;}
-.toggleBtn.play::before { content: "\25B6"; top: -1px; left: 2px;}
+.toggleBtn::before{content: ""; position: absolute !important; inset: 0; filter: brightness(0) invert(1);}
+.toggleBtn.pause::before {background: url(images/pause-btn.png) no-repeat center center/12px;}
+.toggleBtn.play::before {background: url(images/play-btn.png) no-repeat center center/12px;}
 
 .class_box1{background: url(images/classes-img-1.webp) no-repeat center/cover;}
 .class_box2{background: url(images/classes-img-2.webp) no-repeat center/cover;}
