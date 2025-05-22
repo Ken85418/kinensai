@@ -1,0 +1,6 @@
+@media only screen
+and (max-width : 500px) {
+  
+    .fixed_bg::before { animation: none; }
+
+}
